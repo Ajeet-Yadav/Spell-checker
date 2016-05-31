@@ -1,0 +1,351 @@
+1. INTRODUCTION
+
+1.1Purpose
+Predictive spelling checker is a feature provided by many web browsers, e-mail programs, search engine interfaces, source code editors, database query tools, word processors, and command line interpreters. Predictive spelling checker is also available for, or already integrated in, general text editors. Predictive spelling checker involves the program predicting a word or phrase that the user wants to type in without the user actually typing it in completely. This feature is effective when it is easy to predict the word being typed based on those already typed, such as when there are a limited number of possible or commonly used words (as is the case with e-mail programs, web browsers, or command line interpreters), or when editing text written in a highly structured, easy-to-predict language (as in source code editors). It can also be very useful in text editors, when the prediction is based on a list of words in one or more languages. For special purposes, like medical or technical texts a word list of terms in that field is used. Many Predictive spelling checker programs are able to learn new words after the user has written them a few times, and can suggest alternatives based on the learned habits of the individual user. Predictive spelling checker speeds up human-computer interactions in environments to which it is well suited.	
+
+1.2 Need of a Successful Predictive Spell Checker
+Intended for Project Managers, Developers, End users and Quality Assurance Engineers. This topic will guide you through the entire life of this successful predictive spell checker.
+
+•	Needs analysis
+The first step when selecting and deploying a predictive spell checker is to conduct a needs analysis. The needs analysis should identify the problems that a spell checker system must solve. These should be translated into requirements which the successful vendor must meet.
+Following are the most common spell checker problems, and a brief description of spell checker system functionalities that are required to solve them.
+•	It scans the text and extracts the words contained in it.
+•	It then compares each word with a known list of correctly spelled words (i.e. a dictionary). This might contain just a list of words, or it might also contain additional information, such as hyphenation points or lexical and grammatical attributes.
+•	User productivity
+
+Users who forget the spellings waste time on:
+•	Trying to remember it.
+•	Searching a dictionary.
+•	Waiting for service.
+
+Each problem incident may consume 20-30 minutes of user time. In many organizations, users experience this problem 2-4 times annually. In a large user population, this generates a huge volume of user problems.
+A spell checker system should incorporate words predictions, which helps users to remember their spellings and thus eliminate the majority of spelling-related problems. 
+•	Support cost
+•	Words predictions can reduce the incidence of spelling problems.
+•	Self-service spell checker help users resolve their own problems, rather than asking some others for help.
+•	A predictive spell check facility should minimize problem resolution time by:
+•	Providing several alternatives of the word entered by the user.
+•	Synchronizing with a dictionary database to search for the typed word.
+•	Automatically suggesting alternate words.
+•	Searching if the word really exists or not.
+
+•	Risks involved
+There are various levels of risk in predictive text systems, versus multi-tap systems, because the predicted text that is automatically written that provide the speed and mechanical efficiency benefit, could, if the user is not careful to review, result in transmitting misinformation.
+
+•	Selecting a product
+The ideal spell checker should meet all of the project's technical requirements, and be supported by a stable, mature and helpful vendor.
+
+1.3 Functionality of a Predictive spell checker
+A predictive spell checker should include functionality for:
+
+•	Words synchronization:
+It scans the text and extracts the words contained in it. It then compares each word with a known list of correctly spelled words (i.e. a dictionary). This might contain just a list of words, or it might also contain additional information, such as hyphenation points or lexical and grammatical attributes.
+
+•	Self-service words predictions:
+Users who forget their words spellings should be able to quickly resolve their problems without calling other person for help or look in a dictionary.
+
+Target systems
+A spell checker system should incorporate words predictions, which helps users to remember their spellings and thus eliminate the majority of spelling-related problems. 
+If this is not possible, then a threshold for systems that must be supported should be defined. A reasonable approach is to require the solution to spell words for systems that generate 95% of spelling-related mistakes.
+1.4 LANGUAGE USED
+
+To develop this project on Password Manager the platform used is JAVA.
+ 
+LANGUAGE: JAVA (J2SE).
+
+
+
+JAVA (J2SE)
+Java Platform, Standard Edition or Java SE is a widely used platform for development and deployment of portable applications for desktop and server environments. Java SE uses object-oriented Java programming language. Strictly speaking, Java SE is a platform specification. It defines a wide range of general purpose APIs—such as Java APIs for the Java Class Library—and also includes the Java Language Specification and the Java Virtual Machine Specification. One of the most well-known implementations of Java SE is Oracle Corporation's Java Development Kit (JDK).
+
+Nomenclature, standards and specifications
+Java SE was known as Java 2 Platform, Standard Edition or J2SE from version 1.2 until version 1.5. The "SE" is used to distinguish the base platform from the Enterprise Edition (Java EE) and Micro Edition (Java ME) platforms. The "2" was originally intended to emphasize the major changes introduced in version 1.2, but was removed in version 1.6. The naming convention has been changed several times over the Java version history. Starting with J2SE 1.4 (Merlin), Java SE has been developed under the Java Community Process, which produces descriptions of proposed and final specifications for the Java platform called Java Specification Requests (JSR). JSR 59 was the umbrella specification for J2SE 1.4 and JSR 176 specified J2SE 5.0 (Tiger). Java SE 6 (Mustang) was released under JSR 270.
+
+Java Platform, Enterprise Edition (Java EE) is a related specification that includes all the classes in Java SE, plus a number that are more useful to programs that run on servers as opposed to workstations.
+
+Java Platform, Micro Edition (Java ME) is a related specification intended to provide a certified collection of Java APIs for the development of software for small, resource-constrained devices such as cell phones, PDAs and set-top boxes.
+
+The Java Runtime Environment (JRE) and Java Development Kit (JDK) are the actual files downloaded and installed on a computer to run or develop Java programs, respectively.
+•	General purpose packages
+•	java.lang
+The Java package java.lang contains fundamental classes and interfaces closely tied to the language and runtime system. This includes the root classes that form the class hierarchy, types tied to the language definition, basic exceptions, math functions, threading, security functions, as well as some information on the underlying native system. This package contains 22 of 32 Error classes provided in JDK 6.
+The main classes and interfaces in java.lang are:
+
+•	Object – the class that is the root of every class hierarchy.
+•	Enum – the base class for enumeration classes (as of J2SE 5.0).
+•	Class – the class that is the root of the Java reflection system.
+•	Throwable – the class that is the base class of the exception class hierarchy.
+•	Error, Exception, and RuntimeException – the base classes for each exception type.
+•	Thread – the class that allows operations on threads.
+•	String – the class for strings and string literals.
+•	StringBuffer and StringBuilder – classes for performing string manipulation (StringBuilder as of J2SE 5.0).
+•	Comparable – the interface that allows generic comparison and ordering of objects (as of J2SE 1.2).
+•	Iterable – the interface that allows generic iteration using the enhanced for loop (as of J2SE 5.0).
+•	ClassLoader, Process, Runtime, Security Manager, and System – classes that provide "system operations" that manage the dynamic loading of classes, creation of external processes, host environment inquiries such as the time of day, and enforcement of security policies.
+•	Math and Strict Math – classes that provide basic math functions such as sine, cosine, and square root (Strict Math as of J2SE 1.3).
+•	The primitive wrapper classes that encapsulate primitive types as objects.
+•	The basic exception classes thrown for language-level and other common exceptions.
+Classes in java.lang are automatically imported into every source file.
+
+
+
+
+1.5 SOFTWARE USED
+NETBEANS (IDE) 8.0.1 with JDK 1.7.0
+
+ 
+
+NetBeans is an integrated development environment (IDE) for developing primarily with Java, but also with other languages, in particular PHP, C\C++, and HTML5. It is also an application platform framework for Java desktop applications and others.
+The NetBeans IDE is written in Java and can run on Windows, OS X, Linux, Solaris and other platforms supporting a compatible JVM.
+The NetBeans Platform allows applications to be developed from a set of modular software components called modules. Applications based on the NetBeans Platform (including the NetBeans IDE itself) can be extended by third party developers.
+Framework for simplifying the development of Java Swing desktop applications. The NetBeans IDE bundle for Java SE contains what is needed to start developing NetBeans plugins and NetBeans Platform based applications; no additional SDK is required.
+Applications can install modules dynamically. Any application can include the Update Center module to allow users of the application to download digitally signed upgrades and new features directly into the running application. Reinstalling an upgrade or a new release does not force users to download the entire application again.
+The platform offers reusable services common to desktop applications, allowing developers to focus on the logic specific to their application. Among the features of the platform are:
+•	User interface management (e.g. menus and toolbars)
+•	User settings management
+•	Storage management (saving and loading any kind of data)
+•	Window management
+•	Wizard framework (supports step-by-step dialogs)
+•	NetBeans Visual Library
+•	Integrated development tools
+NetBeans IDE is a free, open-source, cross-platform IDE with built-in-support for Java Programming Language.
+
+
+
+
+
+NetBeans Profiler 
+The NetBeans Profiler is a tool for the monitoring of Java applications: It helps developers find memory leaks and optimize speed. Formerly downloaded separately, it is integrated into the core IDE since version 6.0.
+The Profiler is based on a Sun Laboratories research project that was named JFluid. That research uncovered specific techniques that can be used to lower the overhead of profiling a Java application. One of those techniques is dynamic bytecode instrumentation, which is particularly useful for profiling large Java applications. Using dynamic bytecode instrumentation and additional algorithms, the NetBeans Profiler is able to obtain runtime information on applications that are too large or complex for other profilers. NetBeans also support Profiling Points that let you profile precise points of execution and measure execution time.
+
+1.6 Project Scope
+•	Provides registration to public in order to access the application in terms of login Id.
+•	The user can correct his spelling mistakes.
+•	Registered users can find spellings of complex words in split second time.
+•	Find and correct words as and when necessary.
+•	The words can be corrected anytime and any number of times.
+
+
+
+2. Overall Description
+
+2.1 Product Perspective
+The original purpose of Prediction Spell Check software was to help people with physical disabilities increase their typing speed, as well as to help them decrease the number of keystrokes needed in order to complete a word or a sentence. The need to increase speed is noted by the fact that people who use speech generating devices generally produce speech at a rate that is less than 10% as fast as people who use oral speech. But the function is also very useful for anybody who writes text, and especially useful for people who often use long and hard to spell technical or medical terms, like medical doctors.
+Predictive spelling checker is a feature provided by many web browsers, e-mail programs, search engine interfaces, source code editors, database query tools, word processors, and command line interpreters. This feature is effective when it is easy to predict the word being typed based on those already typed, such as when there are a limited number of possible or commonly used words (as is the case with e-mail programs, web browsers, or command line interpreters), or when editing text written in a highly structured, easy-to-predict language (as in source code editors). It can also be very useful in text editors, when the prediction is based on a list of words in one or more languages. For special purposes, like medical or technical texts a word list of terms in that field is used. Many Predictive spelling checker programs are able to learn new words after the user has written them a few times, and can suggest alternatives based on the learned habits of the individual user. Predictive spelling checker speeds up human-computer interactions in environments to which it is well suited.
+
+	
+2.2 Product Functions
+•	Provide authentic access to user.
+•	Check spelling of a word.
+•	Suggests three alternatives for a word.
+•	Enables less maintenance.
+•	Generate report for all words typed.
+•	Words are auto-generated that ensures less time and high level of productivity.
+
+
+2.3 User Classes and Characteristics
+The application can be used by general public, organizations etc. without having to be specific to any community. The user who has registered and has login id and password only has access to this application.
+
+
+
+
+2.4 Operating Environment
+
+
+Software Requirements:
+
+Operating System		:	Windows 7(Home Basic)
+Language			:	Java
+
+
+
+Hardware Requirements (Minimum)
+
+Processor			:	Pentium 4
+Ram				:	512 MB
+Hard Disk			:	1 GB Space
+
+2.5 Design and Implementation Constraints
+The application is designed using JavaSE. Hence all the design or screens are done using Swings. The constraints are that JVM should be available and running for the application to execute. 
+
+2.6 User Documentation
+The product is provided with built-in manual that would help the end user use the system for functioning.
+
+3. External Interface Requirements
+
+3.1 User Interfaces
+The application provides with keyboard shortcuts and a facility to use the mouse to trigger the required actions. They act as shortcuts and provide an easy navigation within the software. Output data to the user including errors and exceptions are displayed through message boxes and dialogs using option panes.
+3.2 Hardware Interfaces
+The application concentrates on the multi-tier scenario and has no dependency on the network or protocols. When executed on a standalone machine no additional peripheral requirements are needed.
+3.3 Software Interfaces
+The incoming data to the product would be raw text data and outgoing data would be binary.  JVM is needed for software interfaces.
+
+4. System Features
+4.1 Login & Registration
+
+The module deals with authentication of the users using the application. The user id is unique to each user. The users login with the specified id and password to access their schema information.
+
+4.2 Predictive Spelling Checker
+ 
+Predictive spell checker is needed because if the search query is spelled wrong, there will be no pertinent results found. Searching a database for an unrelated topic will not return useful results. We can help the user include useful search terms.
+ First, it does not detect if two letters in the search query are switched. It would detect a switch of two letters as two errors, and not one.
+
+4.3 Report Generation
+The module allows the users of the application to view the following reports:-
+1. Spelling for a particular word.
+2. listing of all alternative words of the typed word.
+
+5. OTHER NON FUNCTIONAL REQUIREMENTS
+
+5.1 Performance Requirements
+No external factor influences performance as the application is standalone. Higher memory is recommended for faster execution.
+5.2 Safety Requirements	
+No harm is expected from the use of the product either to the OS or any data.
+5.3 Product Security Requirements
+The product is protected from un-authorized users from using it. The system allows only authenticated user to work on the application. The users of the system are registered users.
+5.4 Software Quality Attributes
+The product is user friendly as it is developed using Java Swings. The application is reliable and ensures its functioning maintaining the users and their confidential data. As it is developed in java it is interoperable on any OS. The system requires minimum maintenance.
+
+
+6. SOFTWARE DESIGN
+
+UML DIAGRAMS
+
+6.1 USE CASE DIAGRAM:	
+
+A use case is a set of scenarios that describes an interaction between a user and a system. A use case diagram displays the relationship among actors and use cases. The two main components of a use case diagram are use cases and actors. It is the simplest way to represent a user's interaction with the system and depicting the specifications of a use case. A use case diagram can portray the different types of users of a system and the various ways that they interact with the system. This type of diagram is typically used in conjunction with the textual use case and will often be accompanied by other types of diagrams as well.
+
+
+
+
+
+
+
+ 
+Fig 6.1 Use case diagram
+
+
+
+
+
+
+6.2 CLASS DIAGRAM:
+
+A class diagram is a type of static structure diagram that describes the structure of a system by showing the system’s classes, their attributes and the relationships between the classes. The class diagram is the main building block of object oriented modeling. It is used both for general conceptual modeling of the systematic of the application, and for detailed modeling translating the models into programming code. Class diagrams can also be used for data modeling. The classes in a class diagram represent both the main objects, interactions in the application and the classes to be programmed.
+In the diagram, classes are represented with boxes which contain three parts:
+•	The middle part contains the attributes of the class
+•	The bottom part gives the methods or operations the class can take undertake
+In the design of a system, a number of classes are identified and grouped together in a class diagram which helps to determine the static relations between those objects. With detailed modelling, the classes of the conceptual design are often split into a number of subclasses.
+In order to further describe the behaviour of systems, these class diagrams can be complemented by state diagram or UML state machine.
+
+
+
+
+
+
+
+ 
+
+Fig 6.2 Class diagram
+
+
+
+6.3 SEQUENCE DIAGRAM:
+
+A sequence diagram demonstrates the behavior of objects in a use case by describing the objects and the messages they pass. The diagrams are read left to right and descending. A sequence diagram is a kind of interaction diagram that shows how processes operate with one another and in what order. It is a construct of a Message Sequence Charts. A sequence diagram shows object interactions arranged in time sequence. It depicts the objects and classes involved in the scenario and the sequence of messages exchanged between the objects needed to carry out the functionality of the scenario. Sequence diagrams are typically associated with use case realizations in the Logical View of the system under development. Sequence diagrams are sometimes called event diagrams, event scenarios, and timing diagrams.
+A sequence diagram shows, as parallel vertical lines (lifelines), different processes or objects that live simultaneously, and, as horizontal arrows, the messages exchanged between them, in the order in which they occur. This allows the specification of simple runtime scenarios in a graphical manner.
+
+
+
+
+
+
+
+
+
+ 
+
+Fig 6.3.1 Sequence diagram for login
+
+
+
+
+
+
+
+
+
+
+
+
+7. SCREENSHOTS
+
+ 
+Fig 7.1 Welcome Page
+
+
+
+
+
+
+ 
+Fig 7.2 Sign in form
+
+
+
+
+
+ 
+Fig 7.3 Once successfully registered user can login 
+
+
+
+ 
+Fig 7.4 Wrong word detected popup screen
+
+
+
+ 
+Fig 7.9 Prediction started
+
+
+
+
+
+
+
+
+8. TESTING
+8.1 PURPOSE:
+The purpose of testing is to assess product quality. It helps to strengthen and stabilize the architecture early in the development cycle. We can verify through testing, the various interactions, integration of components and the requirements which were implemented. It provides timely feedback to resolve the quality issues, in a timely and cost effective manner. The test workflow involves the following:
+•	Verifying the interactions of components.
+•	Verifying the proper integration of components.
+•	Verifying that all requirements have been implemented correctly.
+•	Identifying and ensuring that all discovered defects are addressed before the software is deployed.
+
+8.2 QUALITY:
+The common usage of the term quality refers to a number of things: principally it means the absence of defects, but more importantly, a fitness for a desired purpose. The ultimate goal of testing is to assess the quality of the end product. Quality assessments often consider process quality and organizational factors as well as direct product quality.
+
+
+8.3 PRODUCT QUALITY:
+The role of testing is not to assure quality, but to assess it, and to provide timely feedback so that quality issues can be resolved in a timely and cost-effective manner.
+
+8.4 TESTING IN THE ITERATIVE LIFECYCLE:
+Testing is not a single activity, nor is it a phase in the project during which we assess quality. If developers are to obtain timely feedback on evolving product quality, testing must occur throughout the lifecycle: we can test the broad functionality of early prototypes: we can test the stability, coverage and performance of the architecture while there is still an opportunity to fix it; and we can test the final product to assess its readiness for delivery to customers. 
+
+8.5 DIMENSIONS OF TESTING:
+To assess product quality, different kinds of tests, each one with a different focus, are needed. These tests can be categorized by several dimensions:
+ Quality dimension: The major quality characteristic or attribute that is the focus of test.
+ Stage of testing: The point in the lifecycle at which the test, usually limited to a single quality dimension.
+ Type of testing: The specific test objective for an individual test, usually limited to a single quality dimension.
+
+8.6 STAGES OF TESTING
+Testing is not a single activity, executed all at once. Testing is executed against different types of targets in different stages of the software development. Test stages progress from testing small elements of the system, such as components (unit testing), to testing completed systems (system testing). The four stages have the following purposes:
+
+Unit test: The smallest testable elements of the system are tested individually; typically at the same time those elements are implemented.
+Integration test: The integrated units (or components or subsystems) are tested.
+System test: The complete application and system (one or more applications) are tested.
+Acceptance test: The complete application (or system) is tested by end users (or representatives) for the purpose of determining readiness for deployment.
+
+These stages occur throughout the lifecycle, with varying emphasis. An early conceptual prototype user in the inception phase to assess the viability of the product vision will be subjected to acceptance tests. Architectural prototype developed during the elaboration phase be subjected to integration and system tests to validate architectural integrity and performance of key architectural elements.
+
