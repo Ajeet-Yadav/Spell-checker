@@ -1,5 +1,7 @@
+<a href="https://baikal.io/ajeetrocks100/predictive-spell-checker"><img src="https://s3-us-west-2.amazonaws.com/nerpa-static/baikal-banner.svg" alt="Sponsored by Baikal"/></a>
+
 # Spell-checker
-[![support](https://baikal.io/badges/ajeetrocks100/predictive-spell-checker)](https://baikal.io/ajeetrocks100/predictive-spell-checker)
+
 The aim is to make a self sufficient application that can detect errors and suggest with precision
 
 A spell checker is needed because if the search query is spelled wrong, there will be no pertinent results found. Searching a database for an unrelated topic will not return useful results. We can help the user include useful search terms.
