@@ -6,7 +6,7 @@
 <!-- Commands such as Run, Debug, and Test only use this build script if -->
 <!-- the Compile on Save feature is turned off for the project. -->
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
-<!-- in the project's Project Properties dialog box.-->
+<!-- in the project's Project Properties dialog box,-->
 <project name="SimpleCalc" default="default" basedir=".">
     <description>Builds, tests, and runs the project SimpleCalc.</description>
     <import file="nbproject/build-impl.xml"/>
