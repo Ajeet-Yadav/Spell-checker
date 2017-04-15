@@ -1,6 +1,6 @@
 <a href="https://baikal.io/ajeetrocks100/predictive-spell-checker"><img src="https://s3-us-west-2.amazonaws.com/nerpa-static/baikal-banner.svg" alt="Sponsored by Baikal"/></a>
 
-# Spell-checker
+# Spell-checker 
  <a href="https://baikal.io/ajeetrocks100/predictive-spell-checker"><img alt="support" src="https://baikal.io/badges/ajeetrocks100/predictive-spell-checker"/></a>
 The aim is to make a self sufficient application that can detect errors and suggest with precision
 
