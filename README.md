@@ -11,3 +11,4 @@ The spell checker that is currently used with string matching also has many prob
 LIMITATION of Predictive Spell Checker only checks the spelling of the query, it does actually provide any searching functionality. It does not provide any functionality for the actual searching, and only helps the user type what they mean to type. Also, algorithm cannot be perfect because a computer can never know what a user is thinking.
 Biggest constraint is computational time. I might not have enough time to complete a professional grade spell checker. This time constraint poses as a larger problem, the more I create intermediate algorithms, such as the string matching algorithms. This spell checker will be implemented only to provide one word of text in the actual search engine asking if the user meant another search term. 
  
+ 
