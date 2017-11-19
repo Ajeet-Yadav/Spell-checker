@@ -12,28 +12,25 @@ LIMITATION of Predictive Spell Checker only checks the spelling of the query, it
 Biggest constraint is computational time. I might not have enough time to complete a professional grade spell checker. This time constraint poses as a larger problem, the more I create intermediate algorithms, such as the string matching algorithms. This spell checker will be implemented only to provide one word of text in the actual search engine asking if the user meant another search term. 
 
 
-                          :PB.Bk:                          
-                      ,jBˆ@B@B@B@BBL.                      
-                   7G–B“B•BMMMMMB@B@B@Nr                   
-               :kB’B.ˆ—MMOMOMOMOMMMMŒB˜B@B1,               
-           :5‘B.B˜BˆBBMMOMOMOMOMOMOMMŠ’nBnB@BBu.           
-        70n†•BˆB’B”BXBBOMOMOMOMOMOMMBMPB˜BˆB@B@B@Nr        
-      G˜–—BJ iBˆB‡ˆ  OBMOMOMOMOMOMOM–2  B.B@B. EB@B@S      
-      ’–BM‡GJBU.  iSuBˆOMOMOMOMOMOMM—OU1:  .kBLMˆM†B—      
-      BŒMMB™B       7ˆBBMMOMOMOMOMOBB–:       B‡BMMˆB      
-      .˜ˆBŠB         7’–@MMOMOMOMM@B@:         @@B@B@      
-      .’OLB.          BNB.MMOMOMM.BEB          rBjM„B      
-      .@  @           M  OBOMOMM@q  M          .@  @@      
-      „•OvB           B:uŒMMOMOMMBJiB          .BvM@B      
-      „B‘B˜J         0‘B—MMOMOMOMB•B@u         q@@@B@      
-      B„MBBŒv       G.‹BMMMMMMMMMMMBBˆ5       F„BMM@B      
-      ‡BBM.BPNi   LMEB…OMMMM.BƒMMOMMŠBZM7   rEqB‡MBB„      
-      B˜–„BM  BmB„B  qBMOMB.B…B„BMOMBL  B@B@B  @B@B@M      
-       J–m†„PB.B„B™B7GˆOMBB.   ,@MMM@qLB@B@@@BqB@BBv       
-          iGB•,i0„M–BnMMO‹E  :  M@OMM@@@B@Pii@@N:          
-             .   B—M.B.MMM@B@B@B@MMM@@@M@B                 
-                 @B@B.i@MBB@B@B@@BM@::B@B@                 
-                 B@@@ .B@B.:@B@ :B@B  @B@O                 
-                   :0 r@B@  B@@ .@B@: P:                   
-                       vMB :@B@ :BO7                       
-                           ,B@B  
+
+          .                                                      .
+        .n                   .                 .                  n.
+  .   .dP                  dP                   9b                 9b.    .
+ 4    qXb         .       dX                     Xb       .        dXp     t
+dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
+9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
+ 9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
+  `9XXXXXXXXXXXXXXXXXXXXX'~   ~`OOO8b   d8OOO'~   ~`XXXXXXXXXXXXXXXXXXXXXP'
+    `9XXXXXXXXXXXP' `9XX'          `98v8P'          `XXP' `9XXXXXXXXXXXP'
+        ~~~~~~~       9X.          .db|db.          .XP       ~~~~~~~
+                        )b.  .dbo.dP'`v'`9b.odb.  .dX(
+                      ,dXXXXXXXXXXXb     dXXXXXXXXXXXb.
+                     dXXXXXXXXXXXP'   .   `9XXXXXXXXXXXb
+                    dXXXXXXXXXXXXb   d|b   dXXXXXXXXXXXXb
+                    9XXb'   `XXXXXb.dX|Xb.dXXXXX'   `dXXP
+                     `'      9XXXXXX(   )XXXXXXP      `'
+                              XXXX X.`v'.X XXXX
+                              XP^X'`b   d'`X^XX
+                              X. 9  `   '  P )X
+                              `b  `       '  d'
+                               `             '
