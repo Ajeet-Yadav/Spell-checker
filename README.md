@@ -1,4 +1,4 @@
-UPDATE: **Checkout the python version of the same code**
+<div>UPDATE: **Checkout the python version of the same code** <div>
 <a href="https://baikal.io/ajeetrocks100/predictive-spell-checker"><img src="https://s3-us-west-2.amazonaws.com/nerpa-static/baikal-banner.svg" alt="Sponsored by Baikal"/></a>
 
 # Spell-checker 
